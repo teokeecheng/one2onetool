@@ -13,7 +13,7 @@ node {
       awsUser='ec2-user'
       appProcess='/home/ec2-user/server/node_modules/forever/bin/monitor index.j[s]'
       echo env.BRANCH_NAME
-      echo 'testing'
+      echo 'testing1'
    }
   stage('Build') {
       sh 'npm install'
