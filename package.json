@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "forever -w index.js",
+    "start": "forever start index.js",
+    "stop": "forever stop index.js",
     "test": "jest"
   },
   "repository": {
