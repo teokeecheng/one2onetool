@@ -6,7 +6,8 @@
   "scripts": {
     "start": "forever start index.js",
     "stop": "forever stop index.js",
-    "test": "jest"
+    "test": "jest",
+    "commit-test": "1"
   },
   "repository": {
     "type": "git",
