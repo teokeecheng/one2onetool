@@ -1,4 +1,3 @@
-pipeline {
 node {
    def awsKeyPath
    def awsUrl
@@ -33,5 +32,4 @@ node {
       sh "ssh -i ${awsKeyPath} -t ${awsUser}@${awsUrl} 'cd ~/server; npm rebuild'"
       sh "ssh -i ${awsKeyPath} -t ${awsUser}@${awsUrl} 'cd ~/server; npm start'"
   }
-}
 }
