@@ -7,7 +7,7 @@
     "start": "forever start index.js",
     "stop": "forever stop index.js",
     "test": "jest",
-    "commit-test": "1"
+    "commit-test": "2"
   },
   "repository": {
     "type": "git",
